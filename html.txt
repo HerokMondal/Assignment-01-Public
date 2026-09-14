@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Knowledge Vault</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <div class="container nav">
+
+            <a href="#" class="logo">
+                <span class="logo-icon">💡</span>
+
+                <span class="logo-text">
+                    <strong>KV</strong>
+                    <small>Knowledge Vault</small>
+                </span>
+            </a>
+
+            <nav class="menu">
+                <a href="#features">Features</a>
+                <a href="#solution">How It Works</a>
+                <a href="#difference">Why It's Different</a>
+            </nav>
+
+            <a href="#cta" class="btn btn-small">
+                Get Early Access
+            </a>
+
+        </div>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+
+            <div class="access-badge">
+                <span>●</span>
+                Early Access Now Open
+            </div>
+
+            <h1>
+                Structured Thinking,
+                <span>Not Just Note-Taking.</span>
+            </h1>
+
+            <p>
+                A private space to store notes, links, and learning summaries —
+                designed to help you think clearly, connect ideas, and turn
+                learning into long-term knowledge.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#cta" class="btn">
+                    Start Building Your Vault
+                    <span>→</span>
+                </a>
+
+                <a href="#solution" class="btn btn-outline">
+                    <span class="play">▷</span>
+                    See How It Works
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= PROBLEM ================= -->
+    <section class="problem" id="features">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Notes Don't Fail, Structure Does.</h2>
+
+                <p>
+                    You're not bad at learning. Your tools just weren't built
+                    for how knowledge actually works.
+                </p>
+            </div>
+
+
+            <div class="cards">
+
+                <!-- Card 1 -->
+                <div class="card">
+
+                    <div class="card-icon">
+                        ▱
+                    </div>
+
+                    <h3>Scattered Notes</h3>
+
+                    <p>
+                        Your ideas live in different apps,
+                        none of them connected.
+                    </p>
+
+                </div>
+
+
+                <!-- Card 2 -->
+                <div class="card">
+
+                    <div class="card-icon">
+                        ♧
+                    </div>
+
+                    <h3>Bookmark Overload</h3>
+
+                    <p>
+                        Hundreds of saved links you'll never
+                        revisit or remember.
+                    </p>
+
+                </div>
+
+
+                <!-- Card 3 -->
+                <div class="card">
+
+                    <div class="card-icon">
+                        🧠
+                    </div>
+
+                    <h3>No Idea Connections</h3>
+
+                    <p>
+                        Insights stay isolated, never
+                        building into bigger understanding.
+                    </p>
+
+                </div>
+
+
+                <!-- Card 4 -->
+                <div class="card">
+
+                    <div class="card-icon">
+                        ⓘ
+                    </div>
+
+                    <h3>Forgetting What<br>You Learned</h3>
+
+                    <p>
+                        Knowledge fades because there's
+                        no system to retain it.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= SOLUTION ================= -->
+    <section class="solution" id="solution">
+
+        <div class="container solution-wrapper">
+
+            <!-- Illustration -->
+            <div class="brain-box">
+
+                <div class="connection connection-top"></div>
+                <div class="connection connection-right"></div>
+                <div class="connection connection-bottom"></div>
+                <div class="connection connection-left"></div>
+
+                <div class="brain-circle">
+                    <div class="brain">🧠</div>
+                    <div class="bulb">💡</div>
+                </div>
+
+
+                <div class="orbit-icon icon-top">
+                    🔗
+                </div>
+
+                <div class="orbit-icon icon-right">
+                    🏷️
+                </div>
+
+                <div class="orbit-icon icon-bottom">
+                    💡
+                </div>
+
+                <div class="orbit-icon icon-left">
+                    📝
+                </div>
+
+            </div>
+
+
+            <!-- Content -->
+            <div class="solution-content">
+
+                <span class="eyebrow">
+                    THE SOLUTION
+                </span>
+
+                <h2>
+                    Your Second Brain,<br>
+                    Structured By Design.
+                </h2>
+
+                <p>
+                    Personal Knowledge Vault isn't another note-taking app.
+                    It's a thinking environment where every note, link, and
+                    summary becomes part of your understanding.
+                </p>
+
+
+                <ul class="check-list">
+
+                    <li>
+                        <span>✓</span>
+                        Capture ideas with structure built-in from day one
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Connect related concepts automatically as you write
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Build lasting knowledge through reflection prompts
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Find anything instantly with semantic search
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CTA ================= -->
+    <section class="cta-section" id="cta">
+
+        <div class="container">
+
+            <div class="cta-box">
+
+                <h2>
+                    Ready To Think More Clearly?
+                </h2>
+
+                <p>
+                    Join thousands of learners who are building their
+                    personal knowledge vaults.
+                    <br>
+                    Start free, no credit card required.
+                </p>
+
+                <a href="#" class="btn">
+                    Get Early Access
+                    <span>→</span>
+                </a>
+
+                <small>
+                    Free during early access • No credit card needed
+                </small>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-top">
+
+                <a href="#" class="logo footer-logo">
+
+                    <span class="logo-icon">💡</span>
+
+                    <span class="logo-text">
+                        <strong>KV</strong>
+                        <small>Knowledge Vault</small>
+                    </span>
+
+                </a>
+
+
+                <div class="social">
+
+                    <h4>Social Links</h4>
+
+                    <div class="social-icons">
+
+                        <a href="#">𝕏</a>
+                        <a href="#">in</a>
+                        <a href="#">f</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 Personal Knowledge Vault. All rights reserved.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
