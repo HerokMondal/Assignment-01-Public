@@ -23,11 +23,20 @@
     color: white;
 }
 
+.btn-outline{
+        background: transparent;
+
+    border: 1px solid rgba(255, 255, 255, 0.8);
+
+    color: #ffffff;
+}
+
 /* main slyle */ 
 
 header{
     /* background-color: #FFFFFF; */
     /* background-color: aqua; */
+    
     padding-top: 34px;
 }
 
@@ -63,3 +72,125 @@ nav .menu a{
     text-decoration: none;
 }
 
+
+.banner{
+    /* border: 1px solid red; */
+   
+    
+    width: 100%;
+    min-height: 622px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     background: url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.banner .banner-content{
+    position: relative;
+    z-index: 2;
+
+    width: 100%;
+
+    text-align: center;
+
+    /* color: #ffffff; */
+
+    padding: 80px 0 70px;
+}
+
+.banner .banner-content .access-badge{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    background-color: #FFFFFF;
+    color: #3d9567;
+
+    padding: 7px 15px;
+
+    border-radius: 30px;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    margin-bottom: 22px;
+}
+
+.access-badge span {
+    color: #3d9567;
+    font-size: 11px;
+}
+
+.banner .banner-content h1{
+    max-width: 770px;
+    margin: 0 auto;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+
+.banner .banner-content h1 span{
+    display: block;
+    color: #30B868;
+}
+
+.banner .banner-content p{
+    max-width: 1360px;
+     margin: 22px auto 30px;
+     font-size: 18px;
+     color: #FFFFFF;
+     line-height: 24px;
+     margin-bottom: 32px;
+}
+.banner-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.notes-section{
+    background: #FFFFFF;
+    padding: 120px 0 120px;
+    /* border: 1px solid red; */
+}
+
+.notes-section .notes-container{
+    width: 82%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.notes-section .notes-container .notes-heading{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.notes-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.notes-heading p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.notes-box{
+    display: flex;
+    gap: 24px;
+}
+.notes-card{
+    padding: 24px;
+    border: 1px solid red;
+    max-width: 322px;
+}
