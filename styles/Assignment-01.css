@@ -162,9 +162,10 @@ nav .menu a{
 }
 
 .notes-section .notes-container{
-    width: 82%;
-    max-width: 1360px;
-    margin: 0 auto;
+    width: 100%;
+  width: 1360px;
+    margin:0 auto;
+    height: 448px;
 }
 
 .notes-section .notes-container .notes-heading{
@@ -188,9 +189,55 @@ nav .menu a{
 .notes-box{
     display: flex;
     gap: 24px;
+   width: 1360px;
+   height: 300px;
 }
 .notes-card{
+    min-width: 322px;
     padding: 24px;
-    border: 1px solid red;
-    max-width: 322px;
+    /* border: 1px solid red; */
+    /* max-width: 322px; */
+    background: #ffffff;
+
+    border: 1px solid #f0f1f2;
+
+    border-radius: 6px;
+
+    padding: 70px 28px 30px;
+    /* align-items: center; */
+
+    text-align: center;
+
+    box-shadow:0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.notes-card .notes-icon{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    background: #F95555;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.notes-card .notes-icon img{
+    width: 32px;
+    height: 32px;
+}
+
+.notes-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.notes-card p{
+    font-size: 16px;
+    /* font-weight: 600; */
+    color: #627382;
+    /* margin-bottom: 16px; */
+    line-height: 20px;
 }
